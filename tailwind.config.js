@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: ["./../loginpage.board.tsx", "./src/**/*.{js,ts,jsx,tsx}"],
+  content: ["./src/_codux/boards/loginpage.board.tsx", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: { 
     extend: {
       colors: {
