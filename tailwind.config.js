@@ -1,7 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
-  theme: {
+  theme: { 
     extend: {
       colors: {
         transparent: 'transparent',
@@ -17,6 +17,7 @@ export default {
         'kolor': {
           1: '#0B60B0',
           2: '#6B7280',
+          3: '#E5E7EB',
         }
       },
     },

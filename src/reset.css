@@ -120,3 +120,72 @@ html {
     list-style-position: inherit;
     outline: inherit;
 }
+
+.head {
+
+    width: 1440px;
+    height: 176px;
+    margin: 0px;
+    position: fixed;
+    background-color: #000000;
+    bottom: 850px;
+    left: 0px;
+}
+
+.mtplogoNEW {
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    bottom: 900px;
+    left: 180px;
+}
+
+.spclogoNEW {
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    left: 30px;
+    bottom: 900px;
+}
+
+.lineNEW {
+    width: 1px;
+    height: 120px;
+    position: fixed;
+    left: 150px;
+    top: 5px;
+    background-color: #000000;
+}
+
+.titulo {
+    position: relative;
+    font-family: serif;
+}
+
+
+.titulo2 {
+    margin-left: 160px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    bottom: 900px;
+}
+
+.N {
+    position: relative;
+    bottom: 545px;
+    font-size: 30px;
+
+}
+
+.inputs {
+    position: relative;
+    width: 257px;
+    height: 34px;
+}
+
+.NMTOP {
+    width: 257px;
+    height: 34px;
+    position: relative;
+    bottom: 550px;
+}
