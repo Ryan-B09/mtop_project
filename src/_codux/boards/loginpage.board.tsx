@@ -4,11 +4,11 @@ import MtopLogo from '../../assets/transport_logo_Light.svg';
 import spclogo from '../../assets/spc.png';
 import userlogo from '../../assets/user_light.svg';
 import pass from '../../assets/password_light.svg';
+import App from '../../App.js';
 
 export default createBoard({
     name: 'loginpage',
     Board: () => (
-       
         <div className="root">
             <h1 className="title font-serif drop-shadow-xl">
                 MTOP San Pablo City
@@ -38,19 +38,16 @@ export default createBoard({
                         value="LOG IN"
                         className="login bg-kolor-1 text-white hover:bg-sky-900 cursor-pointer"
                     />
-                   
+
                     <input
                         type="submit"
                         value="Forgot Password?"
                         className="forgot text-gray-400 underline hover:decoration-2 hover:decoration-kolor-1 cursor-pointer"
                     />
-                    
                 </form>
             </div>
         </div>
-      
     ),
-
 
     isSnippet: true,
     environmentProps: {

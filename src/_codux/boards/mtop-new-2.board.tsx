@@ -3,11 +3,10 @@ import { createBoard } from '@wixc3/react-board';
 import MtopLogo from '../../assets/transport_logo_Light.svg';
 import spclogo from '../../assets/spc.png';
 
-
 export default createBoard({
     name: 'MtopNew 2',
     Board: () => (
-        <div>
+        <div className="md:w-32">
             <div className="head bg-kolor-3" />
 
             <img src={MtopLogo} alt="" className="mtplogoNEW" />
@@ -112,7 +111,9 @@ export default createBoard({
                     </div>
 
                     <div className="tpl.text bottom-[380px] fixed">
-                        <p className="text-[20px] ml-[-100px] ">TPL Effectivity:</p>
+                        <p className="text-[20px] ml-[-100px] ">
+                            TPL Effectivity:
+                        </p>
                     </div>
 
                     <div className="tpl.input fixed bottom-[380px] ml-[50px]">
@@ -155,9 +156,10 @@ export default createBoard({
                         ></input>
                     </div>
 
-
                     <div className="ip.text bottom-[450px] fixed">
-                        <p className="text-[20px] ml-[730px]">Insurance Provider:</p>
+                        <p className="text-[20px] ml-[730px]">
+                            Insurance Provider:
+                        </p>
                     </div>
 
                     <div className="ip.input bottom-[450px] ml-[920px] fixed">
@@ -166,7 +168,6 @@ export default createBoard({
                             className="w-[257px] h-[34px] border border-black rounded-md"
                         ></input>
                     </div>
-
 
                     <div className="previous">
                         <button
@@ -200,6 +201,6 @@ export default createBoard({
         windowWidth: 1440,
         windowHeight: 1024,
         canvasWidth: 1024,
-        canvasHeight: 687,
+        canvasHeight: 691,
     },
 });
