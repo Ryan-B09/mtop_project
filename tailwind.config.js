@@ -18,9 +18,11 @@ export default {
           1: '#0B60B0',
           2: '#6B7280',
           3: '#E5E7EB',
+        },
+
+
         }
       },
     },
-  },
-  plugins: [],
-};
+  }
+  plugins: []

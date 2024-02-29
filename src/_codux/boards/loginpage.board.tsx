@@ -5,9 +5,14 @@ import spclogo from '../../assets/spc.png';
 import userlogo from '../../assets/user_light.svg';
 import pass from '../../assets/password_light.svg';
 
+const handleSubmit = (e) => {
+ e.preventDefault();
+}
+
 export default createBoard({
     name: 'loginpage',
     Board: () => (
+       
         <div className="root">
             <h1 className="title font-serif drop-shadow-xl">
                 MTOP San Pablo City
@@ -18,7 +23,7 @@ export default createBoard({
                 <img src={MtopLogo} alt="" className="mtoplogo" />
                 <img src={pass} alt="" className="word" />
                 <div className="V-line" />
-                <form className="newlog">
+                <form onSubmit={handleSubmit} className="newlog">
                     <input
                         type="text"
                         className="email border-2 hover:border-kolor-1 text-stone-950 hover:text-kolor-1 bg-kolor-2/20"
@@ -37,15 +42,19 @@ export default createBoard({
                         value="LOG IN"
                         className="login bg-kolor-1 text-white hover:bg-sky-900 cursor-pointer"
                     />
+                   
                     <input
                         type="submit"
                         value="Forgot Password?"
                         className="forgot text-gray-400 underline hover:decoration-2 hover:decoration-kolor-1 cursor-pointer"
                     />
+                    
                 </form>
             </div>
         </div>
+      
     ),
+
 
     isSnippet: true,
     environmentProps: {

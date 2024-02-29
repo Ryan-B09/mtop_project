@@ -15,7 +15,7 @@ export default createBoard({
             <img src={spclogo} alt="" className="spclogoNEW" />
 
             <div className="lineNEW"></div>
-            <h1 className="titulo text-[50px] ml-40 text-kolor-1 fixed bottom-[950px]">
+            <h1 className="titulo text-[50px] ml-40 text-kolor-1 fixed bottom-[950px] font-">
                 Motorized Tricycle Operators Permit
             </h1>
 
@@ -171,7 +171,7 @@ export default createBoard({
                     <div className="previous">
                         <button
                             type="submit"
-                            className="border border-black w-[155px] h-[34px] rounded-md fixed bottom-[50px] ml-[750px] text-kolor-2"
+                            className="border border-black w-[155px] h-[34px] rounded-md fixed bottom-[50px] ml-[750px] bg-kolor-1 text-whites"
                         >
                             Previous
                         </button>

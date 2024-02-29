@@ -104,7 +104,7 @@ export default createBoard({
                     <div className="previous">
                         <button
                             type="submit"
-                            className="border border-black w-[155px] h-[34px] rounded-md fixed bottom-[50px] ml-[750px] text-kolor-2"
+                            className="border border-black w-[155px] h-[34px] rounded-md fixed bottom-[50px] ml-[750px] bg-kolor-1 text-white"
                         >
                             Previous
                         </button>
