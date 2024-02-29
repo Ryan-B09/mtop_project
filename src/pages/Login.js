@@ -1,15 +1,9 @@
-import '../../reset.css';
-import { createBoard } from '@wixc3/react-board';
-import MtopLogo from '../../assets/transport_logo_Light.svg';
-import spclogo from '../../assets/spc.png';
-import userlogo from '../../assets/user_light.svg';
-import pass from '../../assets/password_light.svg';
+import React from "react";
 
-export default createBoard({
-    name: 'loginpage',
-    Board: () => (
-       
-        <div className="root">
+function Login(){
+    return (
+        <div>
+            <div className="root">
             <h1 className="title font-serif drop-shadow-xl">
                 MTOP San Pablo City
             </h1>
@@ -49,13 +43,6 @@ export default createBoard({
             </div>
         </div>
       
-    ),
-
-
-    isSnippet: true,
-    environmentProps: {
-        windowHeight: 1024,
-        windowWidth: 1440,
-        canvasWidth: 502,
-    },
-});
+        </div>
+    )
+}
